@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+<!-- Latest compiled and minified CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<style>
+    body{
+        top: 0;
+        left: 0;
+        margin: auto;
+        background-color: rgb(248, 159, 253);
+        background: url('login1.jpg');
+        background-repeat: no-repeat;
+        width: 100%;
+        height:100%;
+    }
+    .form{
+        
+        background-color: white;
+        width: max-content;
+        height: max-content;
+        padding:2.5rem;
+        border: none;
+        border-radius: 1rem;
+        margin: auto;
+        margin-top: 1rem;
+    }
+    .div{
+        margin: 1rem;
+    }
+    input{
+        padding: 0.658rem;
+        width:20rem;
+        background-color: rgb(212, 212, 212);
+        border: none;
+        margin-left: -0.3rem;
+        margin-top: 0.3rem;
+        border-top-right-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+    }
+    label>img{
+        background-color:rgb(212, 212, 212) ;
+        border-top-left-radius: 1rem;
+        border-bottom-left-radius: 1rem;
+        padding: 0.45rem;
+        margin-top: -0.3rem;
+    }
+    .btn1{ 
+        padding:0.5rem;
+        border: none;
+        background-color:  #ebcaca;;
+        border-radius: 1rem;
+        width: 10rem;
+        margin-left:6rem;
+        font-size: 1.2rem;
+        font-weight: 600;
+
+    }
+    .logo{
+        height:5rem;
+        border-radius: 0.8rem; 
+    }
+</style>
+<body>
+   <div class="loginpage ">
+    <div >
+    </div>
+    
+    <form action="home.html" method="get" class="form">
+        
+       <div class="text-center"> <img src="women.png" class=" logo" alt="" ><h1 style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Sign up</h1></div>
+        <div class="div">
+            <label for="name"><img src="user.png" alt=""></label>
+            <input type="text" class="input" placeholder="Enter Username" required>
+        </div>
+        <div class="div">
+            <label for="pass"><img src="lock.png" alt=""></label>
+            <input type="password" class="input" placeholder="Enter Password" required>
+        </div>
+        <div class="div">
+            <label for="mail">
+                <img src="email.png" alt="">
+            </label>
+            <input type="email" name="mail" id="" placeholder="abc1901@gmail.com" required>
+        </div>
+        <div class="div">
+            <label for="phone"><img src="phome.png" alt=""></label>
+            <input type="tel"   placeholder="Enter Phone number"name="phone" id="" required>
+        </div>
+        <div class="div" >
+            <button type="submit"  class="btn1">Sign Up</button>
+        </div>
+    </form>
+   </div>
+</body>
+</html>
